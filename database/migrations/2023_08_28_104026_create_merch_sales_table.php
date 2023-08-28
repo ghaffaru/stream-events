@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('item_name');
             $table->bigInteger('amount')->default(1);
             $table->decimal('price');
+            $table->boolean('read')->default(false);
             $table->timestamps();
         });
     }
