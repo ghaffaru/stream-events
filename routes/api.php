@@ -19,3 +19,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('events', [\App\Http\Controllers\EventsController::class, 'index']);
+Route::get('statistics', [\App\Http\Controllers\EventsController::class, 'statistics']);
