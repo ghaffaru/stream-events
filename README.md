@@ -1,7 +1,5 @@
 # stream-events
 
-A php package for working with cities in ghana !
-
 ## Installation
 
 Setup dependencies via composer & npm:
